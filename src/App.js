@@ -24,7 +24,7 @@ class App extends Component {
 	};
 
 	render() {
-		/*line bellow is shortcut for: //const monsters = this.state.monsters AND const searchField = this.state.searchField*/
+		/*line bellow is shortcut for: //const monsters = this.state.monsters AND const searchField = this.state.searchField */
 		const { monsters, searchField } = this.state;
 
 		/* Creating a new array by filtering the searched value */
